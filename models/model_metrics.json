@@ -1,0 +1,191 @@
+{
+  "best_model_name": "Naive Bayes",
+  "nb_accuracy": 1.0,
+  "rf_accuracy": 1.0,
+  "nb_precision": 1.0,
+  "rf_precision": 1.0,
+  "nb_recall": 1.0,
+  "rf_recall": 1.0,
+  "nb_f1": 1.0,
+  "rf_f1": 1.0,
+  "nb_cm": [
+    [
+      100,
+      0
+    ],
+    [
+      0,
+      100
+    ]
+  ],
+  "rf_cm": [
+    [
+      100,
+      0
+    ],
+    [
+      0,
+      100
+    ]
+  ],
+  "nb_report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       100\n           1       1.00      1.00      1.00       100\n\n    accuracy                           1.00       200\n   macro avg       1.00      1.00      1.00       200\nweighted avg       1.00      1.00      1.00       200\n",
+  "rf_report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       100\n           1       1.00      1.00      1.00       100\n\n    accuracy                           1.00       200\n   macro avg       1.00      1.00      1.00       200\nweighted avg       1.00      1.00      1.00       200\n",
+  "results": {
+    "Naive Bayes": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          100,
+          0
+        ],
+        [
+          0,
+          100
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       100\n           1       1.00      1.00      1.00       100\n\n    accuracy                           1.00       200\n   macro avg       1.00      1.00      1.00       200\nweighted avg       1.00      1.00      1.00       200\n"
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          100,
+          0
+        ],
+        [
+          0,
+          100
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       100\n           1       1.00      1.00      1.00       100\n\n    accuracy                           1.00       200\n   macro avg       1.00      1.00      1.00       200\nweighted avg       1.00      1.00      1.00       200\n"
+    }
+  },
+  "feature_importance": [
+    [
+      "url_count",
+      0.19314962834138036
+    ],
+    [
+      "urgent_word_count",
+      0.06890056742260695
+    ],
+    [
+      "text_length",
+      0.06551015698380411
+    ],
+    [
+      "account",
+      0.03342114717473156
+    ],
+    [
+      "your",
+      0.03169201739647959
+    ],
+    [
+      "act",
+      0.027837581701560973
+    ],
+    [
+      "please",
+      0.023783138610542164
+    ],
+    [
+      "caps_ratio",
+      0.021351725987589373
+    ],
+    [
+      "exclamation_count",
+      0.019230880616508378
+    ],
+    [
+      "regards",
+      0.017092925725973807
+    ],
+    [
+      "best",
+      0.016367289697981194
+    ],
+    [
+      "next",
+      0.01634544409010661
+    ],
+    [
+      "best regards",
+      0.013084631689585367
+    ],
+    [
+      "verify",
+      0.011927281085398917
+    ],
+    [
+      "let me",
+      0.010608210867210137
+    ],
+    [
+      "has been",
+      0.010512637481728355
+    ],
+    [
+      "urgent",
+      0.010114570150135638
+    ],
+    [
+      "has",
+      0.009595367636719275
+    ],
+    [
+      "link_word_count",
+      0.00945101613910101
+    ],
+    [
+      "if you",
+      0.008940987040840554
+    ],
+    [
+      "questions",
+      0.00812825675343969
+    ],
+    [
+      "me know",
+      0.007645609024258237
+    ],
+    [
+      "know",
+      0.007101772205987574
+    ],
+    [
+      "me",
+      0.007016036667560938
+    ],
+    [
+      "been",
+      0.006836317894820769
+    ],
+    [
+      "please let",
+      0.005943149451654999
+    ],
+    [
+      "account is",
+      0.0059158770545309665
+    ],
+    [
+      "let",
+      0.005554340164500433
+    ],
+    [
+      "any",
+      0.005487802622329892
+    ],
+    [
+      "bank",
+      0.005471866566818437
+    ]
+  ]
+}
