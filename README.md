@@ -287,6 +287,4 @@ This project is licensed under the MIT License.
 - Built with open-source tools and libraries
 - Designed for educational and cybersecurity awareness purposes
 
-## Contact
-
-Project Link: [https://github.com/yourusername/phishing-email-detector](https://github.com/yourusername/phishing-email-detector)
+(https://github.com/abhinavkommu698-commits/phishing-email-detector)
